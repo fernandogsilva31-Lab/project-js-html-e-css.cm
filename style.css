@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    color:#333333;
+}
+
+.card{
+    background: #ffff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 340px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.00);
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+h2{
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+label{
+    font-size: 13px;
+    color: #555;
+}
+
+input{
+    padding: 9px 10px;
+    border: 1px solid #cccc;
+    border-radius: 6px;
+    font-size: 14px;
+    outline: none;
+}
+
+input:focus{
+    border-color: #007bff;
+
+
+}
+
+.btn-principal{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+
+}
+
+.btn-principal:hover{
+    background-color: #007bff;
+
+}
+
+.btn-secundario{
+    background: none;
+    border: 1px solid #007bff;
+    color: #007bff;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-secundario:hover{
+    background-color: #fff;
+
+}
+
+.mensaem {
+    font-size: 13px;
+    text-align: center;
+    min-height: 10px;
+}
+
+.mensagem.erro{
+    color: rgb(255, 14, 14);
+}
